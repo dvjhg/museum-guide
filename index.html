@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f4fbf8">
+<title>自助讲解</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <p class="topline">请勿关闭本页 · 全程无需扫码</p>
+    <button id="resumeBtn" class="resume-btn" type="button" hidden>▶ 继续播放</button>
+  </header>
+  <main id="view" class="view" aria-live="polite"></main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<audio id="au" preload="auto" playsinline webkit-playsinline></audio>
+<script src="js/content.js"></script>
+<script src="js/player.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

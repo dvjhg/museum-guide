@@ -1,0 +1,11 @@
+# 只发布网站本身，下面这些不提交到 GitHub
+tools/
+prints/
+上传用-网站/
+lectures.csv
+*.bat
+*.pdf
+*.log
+*.bak
+*看这里.txt
+二维码-临时演示.png
